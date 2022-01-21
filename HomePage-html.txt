@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BUP Cultural Forum</title>
+  <link rel="shortcut icon" href="assets/logo - Copy.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="bupcfHome">
+    <!-- Navigation -->
+    <nav>
+      <a href=""><img src="assets/logo.png" alt="BUP LOGO"></a>
+      <a href="">
+        <h3>BUP CULTURAL FORUM</h3>
+      </a>
+      <div class="dropdown">
+        <ul>
+          <li class="active"><a href="" class="a">HOME</a></li>
+          <li><a href="" class="a">ABOUT US</a></li>
+          <li><a href="" class="a">ACTIVITIES</a></li>
+          <li class="memberDropdown">
+            <div class="a"><a href="" class="b">MEMBERS</a></div>
+
+            <div class="memberDown">
+              <a href="">Advisory Board</a>
+              <a href="">Executive Committee</a>
+              <a href="">General Members</a>
+              <a href="">Alumni</a>
+              <a href="">Become a Member</a>
+            </div>
+          </li>
+          <li><a href="" class="a">TESTIMONIALS</a></li>
+          <li><a href="" class="a">GALLERY</a></li>
+          <li><a href="" class="a">CONTACT US</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Image Slider-->
+    <section id="showcase" class="bg-dark">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-slide-to="0" data-target="#myCarousel" class="active"></li>
+          <li data-slide-to="1" data-target="#myCarousel"></li>
+          <li data-slide-to="2" data-target="#myCarousel"></li>
+          <li data-slide-to="3" data-target="#myCarousel"></li>
+          <li data-slide-to="4" data-target="#myCarousel"></li>
+          <li data-slide-to="5" data-target="#myCarousel"></li>
+          <li data-slide-to="6" data-target="#myCarousel"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/boishakh_1426.jpg" alt="boishakh_1426">
+            <div class="container">
+              <div class="carousel-caption mb-5 pb-5">
+                <h2 class="display-4">Heading One</h2>
+                <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat
+                  possimus
+                  doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
+                <a href="#" class="btn btn-danger">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/culturalfest_2019.jpg" alt="culturalfest_2019">
+            <div class="container">
+              <div class="carousel-caption mb-5 pb-5 text-right">
+                <h2 class="display-4">Heading Two</h2>
+                <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat
+                  possimus
+                  doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
+                <a href="#" class="btn btn-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/boshonto_1425.JPG" alt="boshonto_1425">
+            <div class="container">
+              <div class="carousel-caption text-left text-light mb-5 pb-5">
+                <h2 class="display-4">Heading Three</h2>
+                <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat
+                  possimus
+                  doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
+                <a href="#" class="btn btn-outline-light">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/culturalfest_2018.jpg" alt="culturalfest_2018">
+            <div class="container">
+              <div class="carousel-caption text-left text-light mb-5 pb-5">
+                <h2 class="display-4">Heading Three</h2>
+                <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat
+                  possimus
+                  doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
+                <a href="#" class="btn btn-outline-light">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/shokdibosh_2018.jpg" alt="shokdibosh_2018">
+            <div class="container">
+              <div class="carousel-caption text-left text-light mb-5 pb-5">
+                <h2 class="display-4">Heading Three</h2>
+                <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat
+                  possimus
+                  doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
+                <a href="#" class="btn btn-outline-light">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/buplighting.png" alt="buplighting">
+            <div class="container">
+              <div class="carousel-caption text-left text-light mb-5 pb-5">
+                <h2 class="display-4">Heading Three</h2>
+                <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat
+                  possimus
+                  doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
+                <a href="#" class="btn btn-outline-light">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/culturalfest_2017.jpg" alt="culturalfest_2017">
+            <div class="container">
+              <div class="carousel-caption text-left text-light mb-5 pb-5">
+                <h2 class="display-4">Heading Three</h2>
+                <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellat
+                  possimus
+                  doloribus velit, harum accusantium quia repellendus debitis, neque vero.</p>
+                <a href="#" class="btn btn-outline-light">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#myCarousel" class="carousel-control-prev pb-5" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#myCarousel" class="carousel-control-next pb-5" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!--ekhane ekta animation hbe upore uthar itc er tar moto-->
+    <!--Welcome Section-->
+    <section class="welcome common">
+
+      <h1>welcome to bup cultural forum</h1>
+      <!--span e ekta animation hbe daag ta choto theke boro howar-->
+      <span></span>
+      <p>To foster a vibrant environment of extra-curricular activities by identifying and nurturing inherent talent of
+        students in various forms of Arts and to develop leadership qualities, organizing skills and positive
+        relationship among students of different departments. BUP Cultural Forum is the biggest platform of BUP students
+        to exhibit and upgrade their skills in different
+        forms of Arts. The forum is highly committed towards Bengali culture and tradition. At the same time, it is
+        respectful to all other cultural sects of the world. From the beginning days of BUP, the forum is on the lead of
+        University’s cultural arena by organizing different events and programs. </p>
+    </section>
+
+
+    <!-- Home Scroll Image -->
+    <section id="home-getstarted" class="text-center text-light">
+      <div class="dark-overlay">
+        <div class="container">
+          <div class="row py-5">
+            <div class="col">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--animation hbe upore uthar itc er tar moto-->
+    <!--Recent Activities Section-->
+    <section id="activities" class="activities common py-5 text-center" uk-lightbox>
+
+      <h1>recent activities</h1>
+      <!--span e ekta animation hbe daag ta choto theke boro howar-->
+      <span></span>
+      <div class="container">
+        <div class="row py-0 py-sm-3">
+          <div class="col-md-4">
+            <div class="boishakh-1426">
+              <img src="assets/boishakh_1426.jpg" alt="">
+              <p>Pohela Boishakh-1426 <br> 14th April, 2019</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="boshonto-1425">
+              <img src="assets/boshonto_1425.JPG" class="" alt="">
+              <p>Boshonto Utshob <br> 13th February, 2019</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="culturalfest-2019">
+              <img src="assets/culturalfest_2019.jpg" class="" alt="">
+              <p>Cultural Fest <br> 10th January, 2019</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" id="btn" class="btn">See All</a>
+      </div>
+    </section>
+
+
+
+
+    <!--Upcoming Events-->
+    <section id="upcoming" class="text-center common text-light">
+      <h1>upcoming events</h1>
+      <span></span>
+      <div id="upcomingEvents">
+        <div class="dark-overlay">
+          <div class="container">
+            <div class="left">
+            <div class="leftside1">
+              <p id="left1">bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu bappy bondhu</p>
+              <p id="left2">mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu mayesha bondhu</p>
+              <p id="left3">anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu anika bondhu</p>
+            </div>
+          </div>
+
+
+          <div class="right">
+            <div id="show1" class="rightside1">
+                <div class="r1-left">
+                  <p>10 October <br>2020</p>
+                </div>
+                <div class="r1-right">
+                  <p>BUP Folk Fest 2020</p>
+                </div>
+            </div>
+            <div id="show2" class="rightside2">
+              <div class="r2-left">
+                <p>18 November <br>2020</p>
+              </div>
+              <div class="r2-right">
+                <p>BUP Cultural Fest 2020</p>
+              </div>
+            </div>
+            <div id="show3" class="rightside3">
+              <div class="r3-left">
+                <p>16 December <br>2020</p>
+              </div>
+              <div class="r3-right">
+                <p>Victory day 2020</p>
+              </div>
+            </div></div>
+
+
+
+
+
+            <div class="row py-5">
+              <div class="col">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<br><br><br>
+
+
+
+
+
+
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+
+  <script>
+    $('.carousel').carousel({
+      interval: 5000,
+      pause: 'never'
+    });
+
+    document.getElementById("show1").onmouseover= function(){
+      document.getElementById("left1").style.display="block";
+    }
+    document.getElementById("show1").onmouseout= function(){
+      document.getElementById("left1").style.display="none";
+    }
+    document.getElementById("show2").onmouseover= function(){
+      document.getElementById("left2").style.display="block";
+    }
+    document.getElementById("show2").onmouseout= function(){
+      document.getElementById("left2").style.display="none";
+    }
+    document.getElementById("show3").onmouseover= function(){
+      document.getElementById("left3").style.display="block";
+    }
+    document.getElementById("show3").onmouseout= function(){
+      document.getElementById("left3").style.display="none";
+    }
+
+
+  </script>
+</body>
+
+</html>

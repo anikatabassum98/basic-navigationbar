@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+    margin: 0;
+    background-color: #059A9C;
+    padding: 0px 0px 2.3em 0px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav img {
+    width: 5.1em;
+    height: 5.1em;
+    border-radius: 50%;
+    margin: 0.5em 1em 0.5em 7.8em;
+    float: left;
+}
+
+nav a h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    margin-top: 0.9em;
+    color: floralwhite;
+    font-size: 1.7em;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin: 0 3em 0 32em;
+    padding-top: 2em;
+    z-index: 100;
+}
+
+nav ul li {
+    float: left;
+    margin: 0;
+    padding: 10px 12px;
+    border-right: 2px solid white;
+    line-height: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    z-index: 100;
+}
+
+nav ul li:last-child {
+    border: none;
+    z-index: 100;
+}
+
+.dropdown ul {
+    overflow: hidden;
+    z-index: 100;
+}
+
+.dropdown ul li a {
+    text-decoration: none;
+    color: floralwhite;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    z-index: 100;
+}
+
+.dropdown ul li.active a {
+    color: rgb(17, 249, 249);
+    text-decoration: underline rgb(17, 249, 249);
+    z-index: 100;
+}
+
+.dropdown li .a:hover,
+.dropdown li .a a:hover {
+    color: rgb(17, 249, 249);
+    text-decoration: underline rgb(17, 249, 249);
+    z-index: 100;
+}
+
+.memberDown a {
+    margin: 0px;
+    color: white;
+    background: #059A9C;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+    padding: 1em 1em;
+    border-bottom: 2px solid #c6b8b8;
+    z-index: 100;
+}
+
+.memberDown a:last-child {
+    border-bottom: none;
+    z-index: 100;
+}
+
+.memberDown a:first-child {
+    margin-top: 1.5px;
+    z-index: 100;
+}
+
+.memberDown {
+    margin-top: 10px;
+    position: absolute;
+    width: 11em;
+    height: 10.85em;
+    display: none;
+    float: left;
+    z-index: 100;
+}
+
+.memberDown a:hover {
+    color: #059A9C;
+    background: white;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.memberDropdown .memberDown {
+    padding-top: 2.3em;
+    z-index: 100;
+}
+
+.memberDropdown:hover .memberDown,
+.memberDropdown br:hover .memberDown {
+    display: block;
+    z-index: 100;
+}
+
+
+
+.carousel-inner img {
+    filter: brightness(50%);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: cover;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: #059A9C;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+}
+
+.welcome {
+    margin-top: 5em;
+}
+
+.common h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.25em;
+    font-family: 'Oswald', sans-serif;
+    word-spacing: 2px;
+    color: #059A9C;
+}
+
+.common span {
+    margin: 520px;
+    padding: 0 150px;
+    border-bottom: 3px solid #059A9C;
+}
+
+.common p {
+    margin: 30px 100px;
+    text-align: justify;
+    font-size: 1.15em;
+    font-family: 'Merriweather', serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#home-getstarted {
+    position: relative;
+    background: url("../assets/boishakh_1426.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 350px;
+}
+
+#home-getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.activities {
+    margin-top: 3em;
+}
+
+.activities span {
+    padding: 0 100px;
+    margin: 570px;
+}
+
+#activities img {
+    height: 250px;
+    width: 350px;
+    margin-top: 2em;
+}
+
+.activities #btn {
+    background-color: #059A9C;
+    color: white;
+    margin-top: 2em;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.activities #btn:hover {
+    background-color: white;
+    color: #059A9C;
+    border: 1px solid #059A9C;
+}
+
+.activities .culturalfest-2019,
+.activities .boshonto-1425,
+.activities .boishakh-1426 {
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    width: 350px;
+}
+
+.activities .culturalfest-2019 p,
+.activities .boshonto-1425 p,
+.activities .boishakh-1426 p {
+    margin: 0;
+    padding: 0;
+    transform: translate3d(0px, -250%, 0px);
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    visibility: hidden;
+
+}
+
+.activities .culturalfest-2019:hover img,
+.activities .boshonto-1425:hover img,
+.activities .boishakh-1426:hover img {
+    filter: brightness(30%);
+}
+
+.activities .culturalfest-2019:hover p,
+.activities .boshonto-1425:hover p,
+.activities .boishakh-1426:hover p {
+    visibility: visible;
+}
+
+
+#upcoming h1 {
+    margin-top: 1em;
+}
+
+#upcomingEvents {
+    margin-top: 1.5em;
+    position: relative;
+    background: url("../assets/boishakh_1426.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 400px;
+}
+
+#upcomingEvents .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#upcoming span {
+    padding: 0 100px;
+    margin: 560px;
+}
+
+#upcoming .left{
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+
+#upcoming .right{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+
+#upcoming .rightside1{
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin: 20px 40px 20px 40px;
+    width: 88%;
+    height: 25%;
+}
+#upcoming .rightside2{
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin: 150px 40px 20px 40px;
+    width: 88%;
+    height: 25%;
+}
+#upcoming .rightside3{
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin: 280px 40px 20px 40px;
+    width: 88%;
+    height: 25%;
+}
+
+#upcoming .rightside1 .r1-left, #upcoming .rightside2 .r2-left, #upcoming .rightside3 .r3-left{
+    background: #059A9C;
+    position: absolute;
+    width: 22%;
+    height: 100%;
+}
+
+#upcoming .rightside1 .r1-right, #upcoming .rightside2 .r2-right, #upcoming .rightside3 .r3-right{
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    margin-left: 22%;
+    width: 78%;
+    height: 100%;
+}
+
+#upcoming .rightside1 .r1-left p, #upcoming .rightside2 .r2-left p, #upcoming .rightside3 .r3-left p{
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    margin-top: 12px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#upcoming .rightside1 .r1-right p, #upcoming .rightside2 .r2-right p, #upcoming .rightside3 .r3-right p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 12px;
+    color: #059A9C;
+}
+#upcoming .leftside1{
+    margin: 50px;
+}
+#upcoming .leftside1 p{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+#upcoming #left1, #upcoming #left2, #upcoming #left3{
+    display: none;
+}
+
+#upcoming .rightside1 .r1-left:hover, #upcoming .rightside2 .r2-left:hover, #upcoming .rightside3 .r3-left:hover{
+    background: white;
+    position: absolute;
+    width: 22%;
+    height: 100%;
+    border-right: 5px solid #059A9C;
+}
+#upcoming .rightside1 .r1-left:hover p, #upcoming .rightside2 .r2-left:hover p, #upcoming .rightside3 .r3-left:hover p{
+    color: #059A9C;
+ 
+}
